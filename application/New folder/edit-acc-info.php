@@ -119,7 +119,7 @@
 
                 </div> -->
                 <div class="logo" dir="rtl" lang="ar" style="position:absolute; left:89%;">
-                          <img src="http://takiem.com/header-logo.png"  height="30" width="80" style="margin-top:18px;">
+                          <img src="<?= $this->config->base_url() ?>header-logo.png"  height="30" width="80" style="margin-top:18px;">
 
                 </div>
                  <div class="dots" style="width:50px;

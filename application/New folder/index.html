@@ -191,7 +191,7 @@ input[type=text], input[type=password] {
 
     <div class="container-login">
     <div class="loginbox">
-    <form id="form-one" action="http://takiem.com/Teacher" method="post" align="center" >
+    <form id="form-one" action="<?= $this->config->base_url() ?>Teacher" method="post" align="center" >
         <div class="container" dir"rtl">
         <div class="containerinput">
              <i class="far fa-user fa-lg fa-fw" aria-hidden="true"></i>
@@ -208,7 +208,7 @@ input[type=text], input[type=password] {
 
           <!--<form action="sign-up-ta.php"> -->
              <div>
-                <button  class="ovalbutton" id="hbtn" type="button" class="button" dir="rtl" lang="ar"><a href="http://takiem.com/registration" style="color:#47928b;  text-decoration: none !important;">تسجيل حساب جديد</a></button>
+                <button  class="ovalbutton" id="hbtn" type="button" class="button" dir="rtl" lang="ar"><a href="<?= $this->config->base_url() ?>registration" style="color:#47928b;  text-decoration: none !important;">تسجيل حساب جديد</a></button>
             </div>
        <!-- </form>-->
         </div>

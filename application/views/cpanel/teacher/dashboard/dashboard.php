@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="UTF-8">
     <!--Import Google Icon Font-->
@@ -16,7 +15,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link href='https://fonts.googleapis.com/css?family=Cairo' rel='stylesheet'>
     <link rel="stylesheet" href="datepicker.min.css" />
-	<link rel="stylesheet" href="http://takiem.com/dashboard.css" />
+	<link rel="stylesheet" href="<?= $this->config->base_url() ?>dashboard.css" />
 
 </head>
 
@@ -32,12 +31,12 @@
     <div id="myModalSide" class="side-modal">
             <div class="modal-content-side" style="float:right; height:100%;">
                 <div style="background:#e4f3f0;">
-                    <img src="http://takiem.com/side.png" width=100 height=100 style="margin-left: 80px; margin-top: 10px;"/>
+                    <img src="<?= $this->config->base_url() ?>side.png" width=100 height=100 style="margin-left: 80px; margin-top: 10px;"/>
                 </div>
                 <div lang="ar" dir="rtl">
                     <button id="btn1" class="accordion" lang="ar" dir="rtl"><i class="fas fa-user-circle" style="font-size:18px; margin-right: 25px;"></i><span style="margin-right:10px; font-size:16px; font-family:'Cairo';">الملف الشخصى</span></button>
                     <div class="panel">
-                        <a class="side-link" href="http://takiem.com/admin/Profile" style="color:#c8c8c8; float:right;  text-decoration: none; cursor:pointer; margin-right:45px; font-size:14px; font-family:'Cairo';">بيانات الحساب</a><br>
+                        <a class="side-link" href="<?= $this->config->base_url() ?>admin/Profile" style="color:#c8c8c8; float:right;  text-decoration: none; cursor:pointer; margin-right:45px; font-size:14px; font-family:'Cairo';">بيانات الحساب</a><br>
                         <a class="side-link" href="#" style="color:#c8c8c8; float:right; text-decoration: none; cursor:pointer; margin-right:45px; font-size:14px; font-family:'Cairo';">بيانات المدرسة</a>
                     </div>
                  </div>
@@ -97,7 +96,7 @@
 
             </div>
              <div lang="ar" dir="rtl">
-            <button id="btn1" class="accordion1" lang="ar" dir="rtl"><i class="fas fa-sign-out-alt" style="font-size:18px; margin-right: 25px;"></i><span style="margin-right:10px; font-size:16px; font-family:'Cairo';"><a class="side-link" href="http://takiem.com/Teacher/logout" style="color:#c8c8c8; float:right; text-decoration: none; cursor:pointer; margin-right:45px; font-size:14px; font-family:'Cairo';">تسجيل خروج</a></span></button>
+            <button id="btn1" class="accordion1" lang="ar" dir="rtl"><i class="fas fa-sign-out-alt" style="font-size:18px; margin-right: 25px;"></i><span style="margin-right:10px; font-size:16px; font-family:'Cairo';"><a class="side-link" href="<?= $this->config->base_url() ?>Teacher/logout" style="color:#c8c8c8; float:right; text-decoration: none; cursor:pointer; margin-right:45px; font-size:14px; font-family:'Cairo';">تسجيل خروج</a></span></button>
 
             </div>
 
@@ -105,7 +104,7 @@
 
 </div>
                 <div class="logo" dir="rtl" lang="ar" style="position:absolute; left:89%;">
-                          <img src="http://takiem.com/header-logo.png"  height="30" width="80" style="margin-top:18px;">
+                          <img src="<?= $this->config->base_url() ?>header-logo.png"  height="30" width="80" style="margin-top:18px;">
 
                 </div>
 

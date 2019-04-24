@@ -189,7 +189,7 @@ input[type=text], input[type=password] {
        تطبيق المعلم
    </h1> -->
     <div class="logo" align="center">
-           <img src="http://takiem.com/sign-in-page-logo.png"  height="150" width="100" style="margin-bottom:30px;">
+           <img src="<?= $this->config->base_url() ?>sign-in-page-logo.png"  height="150" width="100" style="margin-bottom:30px;">
 
    </div>
    <?php

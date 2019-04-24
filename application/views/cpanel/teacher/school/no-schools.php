@@ -1349,7 +1349,7 @@ select.round {
               <div id="myModalSide" class="side-modal">
                       <div class="modal-content-side" style="float:right; height:100%;">
                           <div style="background:#e4f3f0;">
-                              <img src="http://takiem.com/side.png" width=100 height=100 style="margin-left: 80px; margin-top: 10px;"/>
+                              <img src="<?= $this->config->base_url() ?>side.png" width=100 height=100 style="margin-left: 80px; margin-top: 10px;"/>
                           </div>
                           <div lang="ar" dir="rtl">
                           <a href="<?php echo base_url('Teacher')?>"><button id="btn2" class="accordion1" lang="ar" dir="rtl"><i class="fas fa-home" style="font-size:18px; margin-right: 25px;"></i><span style="margin-right:10px; font-size:16px;">الرئيسية</span></button></a>
@@ -1429,7 +1429,7 @@ select.round {
 
           </div>
 <div class="logo" dir="rtl" lang="ar" style="position:absolute; left:89%;">
-          <img src="http://takiem.com/header-logo.png"  height="30" width="80" style="margin-top:18px;">
+          <img src="<?= $this->config->base_url() ?>header-logo.png"  height="30" width="80" style="margin-top:18px;">
 
 </div>
 

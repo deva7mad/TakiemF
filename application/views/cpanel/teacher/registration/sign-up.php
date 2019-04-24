@@ -14,14 +14,14 @@
         <link rel="stylesheet" href="sweetalert2.min.css">
 
 		<title> تقييم</title>
-		<link rel="icon" type="image/png" href="http://takiem.com/sign-in-page-logo.png"/>
+		<link rel="icon" type="image/png" href="<?= $this->config->base_url() ?>sign-in-page-logo.png"/>
         <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <!--<link rel="stylesheet" href="css/datepicker.min.css" />-->
 <style>
 body {
-    background-image: url("http://takiem.com/background.png");
+    background-image: url("<?= $this->config->base_url() ?>background.png");
     background-repeat: no-repeat;
     background-size: cover;
 	font-family:'Cairo';
@@ -159,7 +159,7 @@ input[type=text], input[type=password],input[type=email] {
     <div class="container">
 
     <div class="logo" align="center">
-            <img src="http://takiem.com/sign-up-page-logo.png"  height="150" width="100" style="margin-bottom:30px;">
+            <img src="<?= $this->config->base_url() ?>sign-up-page-logo.png"  height="150" width="100" style="margin-bottom:30px;">
 
     </div>
 

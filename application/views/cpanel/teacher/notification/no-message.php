@@ -21,7 +21,7 @@ session_cache_limiter("private_no_expire");
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link href='https://fonts.googleapis.com/css?family=Cairo' rel='stylesheet'>
     <link rel="stylesheet" href="datepicker.min.css" />
-	<link rel="stylesheet" href="http://takiem.com/dashboard.css" />
+	<link rel="stylesheet" href="<?= $this->config->base_url() ?>dashboard.css" />
   <style>
   button {
            background:linear-gradient(to right,#47928b,#47948a,#48948a,#49958b,#4a968c,#4a978d,#4f9c94,#529f95,#54a197,#56a399,#55a59a,#56a69b,#57a79c,#5aa79d,#59a99e,#5ca99f,#5baba0,#5dada2,#5eaea3,
@@ -98,7 +98,7 @@ session_cache_limiter("private_no_expire");
                 <div id="myModalSide" class="side-modal">
                         <div class="modal-content-side" style="float:right; height:100%;">
                             <div style="background:#e4f3f0;">
-                                <img src="http://takiem.com/side.png" width=100 height=100 style="margin-left: 80px; margin-top: 10px;"/>
+                                <img src="<?= $this->config->base_url() ?>side.png" width=100 height=100 style="margin-left: 80px; margin-top: 10px;"/>
                             </div>
                             <div lang="ar" dir="rtl">
                             <a href="<?php echo base_url('Teacher')?>"><button id="btn2" class="accordion1" lang="ar" dir="rtl"><i class="fas fa-home" style="font-size:18px; margin-right: 25px;"></i><span style="margin-right:10px; font-size:16px;">الرئيسية</span></button></a>
@@ -178,7 +178,7 @@ session_cache_limiter("private_no_expire");
 
             </div>
                 <div class="logo" dir="rtl" lang="ar" style="position:absolute; left:89%;">
-                          <img src="http://takiem.com/header-logo.png"  height="30" width="80" style="margin-top:18px;">
+                          <img src="<?= $this->config->base_url() ?>header-logo.png"  height="30" width="80" style="margin-top:18px;">
 
                 </div>
 
