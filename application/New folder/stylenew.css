@@ -1,0 +1,75 @@
+
+body{
+     background: #fff;
+    margin: 0;
+    padding: 0;
+    
+}
+nav .nav-wrapper {
+    z-index: 9999;
+}
+
+.container-login{
+    position: relative;
+}
+
+.loginbox{
+
+    width: 590px;
+    height:420px;
+    top:50%;
+    left:50%;
+    position:absolute;
+    transform: translate(-50%,-50%);
+   /* border:3px solid black*/;
+    margin-top:150px;
+
+}
+input[type=text], input[type=password] {
+
+    outline: none;
+    border: 1px solid #999;
+    background: white;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -o-border-radius: 25px;
+    -ms-border-radius: 25px;
+     padding: 14px 20px;
+    margin-bottom:20px;
+    width: 88%;
+    font-size: 1em;
+    color: #999;
+    text-align: right;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+/*button:hover {
+    opacity: 0.8;
+} */
+
+
+
+
+/*.button:hover{
+    color: red;
+    /*background:linear-gradient(to right,#47928b,#47948a,#48948a,#49958b,#4a968c,#4a978d,#4f9c94,#529f95,#54a197,#56a399,#55a59a,#56a69b,#57a79c,#5aa79d,#59a99e,#5ca99f,#5baba0,#5dada2,#5eaea3,
+    #5fafa4 , #60b0a5,#62b2a7,#63b3a8,#62b4a8,#65b5aa,#66b6ab,#67b9ad); */
+     /*background-color:blue ! important;
+    padding: 14px 20px;
+    margin: 8px 0;
+    /*border: none;*/
+   /* border-color:white;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -o-border-radius: 25px;
+    -ms-border-radius: 25px;
+    font-size:20px;
+    cursor: pointer;
+    width:96%;
+
+} */
+

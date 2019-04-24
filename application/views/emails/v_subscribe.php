@@ -1,0 +1,1 @@
+<h3> You Have Subscribed Successfully to <?=$category_name?> </h3>

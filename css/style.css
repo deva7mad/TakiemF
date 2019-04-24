@@ -1,0 +1,106 @@
+#parent {
+    display: table;
+    width: 100%;
+
+}
+#form-one {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+input[type=text], input[type=password] {
+    /*width:50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;*/
+    outline: none;
+    border: 1px solid #999;
+    background: none;
+    margin:10px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -o-border-radius: 25px;
+    -ms-border-radius: 25px;
+    padding: 15px 10px;
+    width: 35%;
+    font-size: 1em;
+    color: #999;
+    text-align: right;
+    font-family: 'Raleway', sans-serif;
+}
+
+button {
+    background:linear-gradient(to right,#47928b,#47948a,#48948a,#49958b,#4a968c,#4a978d,#4f9c94,#529f95,#54a197,#56a399,#55a59a,#56a69b,#57a79c,#5aa79d,#59a99e,#5ca99f,#5baba0,#5dada2,#5eaea3,
+    #5fafa4 , #60b0a5,#62b2a7,#63b3a8,#62b4a8,#65b5aa,#66b6ab,#67b9ad);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    /*border-color:white;*/
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -o-border-radius: 25px;
+    -ms-border-radius: 25px;
+
+    cursor: pointer;
+    width: 35%;
+}
+
+/*button:hover {
+    opacity: 0.8;
+} */
+
+.one a{
+    display:block;
+    color: blue;
+    padding: 14px 20px;
+   /* margin: 20px 0;*/
+   margin-left:311px;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+}
+
+.ovalbutton button
+{
+        background:white;
+        font-size:20px;
+        background: -webkit-linear-gradient(#47928b,#47948a,#48948a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+        padding: 14px 20px;
+        margin: 8px 0;
+        /*border: none;*/
+        /*border-color:#67b9ad ! important;*/
+        border : 2px solid #67b9ad;
+        border-radius: 25px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        -o-border-radius: 25px;
+        -ms-border-radius: 25px;
+        cursor: pointer;
+        width: 50%;
+}
+.ovalbutton button:hover{
+    color: black ! important;
+    background:linear-gradient(to right,#47928b,#47948a,#48948a,#49958b,#4a968c,#4a978d,#4f9c94,#529f95,#54a197,#56a399,#55a59a,#56a69b,#57a79c,#5aa79d,#59a99e,#5ca99f,#5baba0,#5dada2,#5eaea3,
+    #5fafa4 , #60b0a5,#62b2a7,#63b3a8,#62b4a8,#65b5aa,#66b6ab,#67b9ad);
+    padding: 14px 20px;
+    margin: 8px 0;
+    /*border: none;*/
+    border-color:white;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -o-border-radius: 25px;
+    -ms-border-radius: 25px;
+
+    cursor: pointer;
+    width: 50%;
+
+}

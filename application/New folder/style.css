@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css?family=Cairo');
+body {
+    background: #fff;
+    margin: 0;
+    padding: 0;
+    font-family: 'Cairo', sans-serif;
+}
+
+nav .nav-wrapper {
+    z-index: 9999;
+}
+
+.sidebar {
+    background: rgba(0, 51, 153, 1);
+    background: -moz-linear-gradient(top, rgba(0, 51, 153, 1) 0%, rgba(0, 0, 102, 1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0, 51, 153, 1)), color-stop(100%, rgba(0, 0, 102, 1)));
+    background: -webkit-linear-gradient(top, rgba(0, 51, 153, 1) 0%, rgba(0, 0, 102, 1) 100%);
+    background: -o-linear-gradient(top, rgba(0, 51, 153, 1) 0%, rgba(0, 0, 102, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(0, 51, 153, 1) 0%, rgba(0, 0, 102, 1) 100%);
+    background: linear-gradient(to bottom, rgba(0, 51, 153, 1) 0%, rgba(0, 0, 102, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#003399', endColorstr='#000066', GradientType=0);
+    padding-top: 60px;
+}
+
+.sidebar img {
+    max-width: 50px;
+    display: block;
+    float: none;
+    margin: 0 auto;
+}
+
+.sidebar li {
+    min-height: 80px;dv
+    padding: 15px 0px 20px 0px;
+}
+
+.side-nav li>a:hover {
+    background-color: transparent;
+}
+
+.side-nav li:hover {
+    background-color: #4b6bbf;
+}
+
+.sidebar li>a {
+    text-align: center;
+    color: white;
+    line-height: 23px;
+    font-size: 10px;
+    padding: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+header,
+main,
+footer {
+    padding-right: 120px;
+}
+
+ul#notifications {
+    min-width: 300px;
+    padding: 0px;
+}
+
+a.notifications,
+a.welcomeuser {
+    background: none;
+    box-shadow: none;
+    color: #00288e;
+    height: 64px;
+}
+
+a.notifications:hover,
+a.welcomeuser:hover,
+a.notifications:focus,
+a.welcomeuser:focus {
+    background: none;
+    box-shadow: none;
+}
+
+#welcomeuser.dropdown-content,
+#notifications.dropdown-content {
+    margin-top: 50px;
+}
+
+.notifications i {
+    height: 60px;
+    line-height: 60px !important;
+    font-size: 50px !important;
+    position: absolute;
+    z-index: 0;
+}
+
+.notifications-num {
+    background: red;
+    padding: 5px;
+    border-radius: 50%;
+    color: white;
+    width: 15px;
+    height: 15px;
+    line-height: 3px;
+    font-size: 12px;
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+    top: 40px;
+    left: 60px;
+}
+
+a.dropdown-button.btn.welcomeuser {
+    border: 1px solid #e0e0e0;
+    height: 37px;
+    border-radius: 30px;
+    display: inline-flex;
+    line-height: 36px;
+    margin-left: 30px;
+}
+
+.welcomeuser i {
+    display: inline !important;
+    line-height: 28px !important;
+    height: 30px !important;
+}
+
+#welcomeuser li,
+#notifications li {
+    padding: 0px;
+    text-align: right;
+    color: black;
+}
+
+#welcomeuser li a,
+#welcomeuser li a i,
+#notifications li a,
+#notifications li a i {
+    color: #00288e;
+    font-size: 12px;
+}
+
+#welcomeuser li a i,
+#notifications li a i {
+    float: right;
+    margin: 0;
+}
+
+#graph {
+    height: 250px !important;
+}
+
+.chart1 h6 {
+    line-height: 60px;
+}
+
+.chart1 i {
+    color: #ffcc66;
+}
+
+#home_chart {
+    width: 100% !important;
+    height: 300px !important;
+}
+
+.first,
+.second {
+    margin-top: 100px;
+}
+
+.third {
+    margin-top: 30px;
+}
+
+.third h6 {
+    font-weight: 900;
+    padding: 10px;
+}
+
+.chart2 {
+    padding-bottom: 45px !important;
+}
+
+.left-side-files img,
+.left-side-files span {
+    margin: 0 auto;
+    display: block;
+    float: none;
+    max-width: 111px;
+}
+
+.left-side-files span {
+    text-align: center;
+    font-size: 25px;
+    padding-right: 20px;
+    height: 23px;
+}
+
+.second-content {
+    padding-top: 10px !important;
+}
+
+.second table {
+    direction: rtl;
+    text-align: right;
+}
+
+.second table td,
+th {
+    padding: 15px 5px;
+    display: table-cell;
+    text-align: left;
+    vertical-align: middle;
+    border-radius: 2px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.second table thead {
+    background: rgba(254, 254, 254, 1);
+    background: -moz-linear-gradient(top, rgba(254, 254, 254, 1) 0%, rgba(219, 219, 219, 1) 52%, rgba(209, 209, 209, 1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(254, 254, 254, 1)), color-stop(52%, rgba(219, 219, 219, 1)), color-stop(100%, rgba(209, 209, 209, 1)));
+    background: -webkit-linear-gradient(top, rgba(254, 254, 254, 1) 0%, rgba(219, 219, 219, 1) 52%, rgba(209, 209, 209, 1) 100%);
+    background: -o-linear-gradient(top, rgba(254, 254, 254, 1) 0%, rgba(219, 219, 219, 1) 52%, rgba(209, 209, 209, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(254, 254, 254, 1) 0%, rgba(219, 219, 219, 1) 52%, rgba(209, 209, 209, 1) 100%);
+    background: linear-gradient(to bottom, rgba(254, 254, 254, 1) 0%, rgba(219, 219, 219, 1) 52%, rgba(209, 209, 209, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#d1d1d1', GradientType=0);
+    border: 1px solid #d3d3d3;
+}
+
+.second table thead th {
+    color: #949494;
+    font-weight: 900;
+}
+
+.second table .tr-back {
+    background: #e3e3ee;
+}
+
+.footer {
+    height: 60px;
+    position: relative;
+    background: #cccccc;
+}
+
+.footer h6 {
+    line-height: 60px;
+    padding-left: 10px;
+}
+
+@media only screen and (max-width: 992px) {
+    header,
+    main,
+    footer {
+        padding-right: 30px;
+    }
+}
+
+.listing .right,
+.right i {
+    line-height: 60px !important;
+    font-size: 20px !important;
+    color: #00288e !important;
+}
+
+.listing .link,
+.listing .link i {
+    color: gray !important;
+}
+
+.listing .link i {
+    font-size: 30px !important;
+    font-weight: 900;
+    line-height: 60px;
+}
+
+.flex {
+    display: flex !important;
+    line-height: 60px !important;
+}
+
+.listing table,
+th,
+td {
+    direction: rtl;
+    text-align: center;
+    border: 1px solid #cacaca;
+}
+
+.listing table th {
+    background: #e0e0f0;
+    color: #5d5d61;
+}
+
+.listing .btn-functions {
+    padding: 0px;
+    margin: 0;
+}
+
+.listing .btn-functions a {
+    background: rgb(226, 226, 226);
+    background: -moz-linear-gradient(top, rgba(254, 254, 254, 1) 0%, rgba(219, 219, 219, 1) 52%, rgba(209, 209, 209, 1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(254, 254, 254, 1)), color-stop(52%, rgba(219, 219, 219, 1)), color-stop(100%, rgba(209, 209, 209, 1)));
+    background: -webkit-linear-gradient(top, rgb(220, 220, 220) 0%, rgba(219, 219, 219, 1) 52%, rgba(209, 209, 209, 1) 100%);
+    background: -o-linear-gradient(top, rgba(254, 254, 254, 1) 0%, rgba(219, 219, 219, 1) 52%, rgba(209, 209, 209, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(254, 254, 254, 1) 0%, rgba(219, 219, 219, 1) 52%, rgba(209, 209, 209, 1) 100%);
+    background: linear-gradient(to bottom, rgb(236, 236, 236) 0%, rgba(219, 219, 219, 1) 52%, rgba(209, 209, 209, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#d1d1d1', GradientType=0);
+    border: 1px solid #d3d3d3;
+    margin: 0;
+    padding: 0px 20px;
+    height: 30px;
+    line-height: 30px;
+    color: #505050;
+}
+
+.listing .pagination-functions {
+    padding: 0px;
+    margin: 0;
+}
+
+.listing .pagination-functions ul.pagination.left {
+    background: #d3d3e0;
+    padding: 5px 0px;
+}
+
+.listing .pagination-functions .pagination li.active a {
+    color: #55554d;
+}
+
+.listing .pagination-functions .pagination li.active {
+    background-color: #afafd4;
+    color: #55554d;
+}
+
+.form-elements {
+    padding: 30px !important;
+    direction: rtl;
+    min-height: 600px !important;
+}
+
+.form-elements input {
+    border: 1px solid #c7c7c7 !important;
+    padding-right: 10px !important;
+    border-radius: 9px !important;
+    color: gray;
+}
+
+.form-elements .dropdown-content li,
+.form-elements .dropdown-content li span {
+    text-align: right;
+    color: #003096;
+}
+
+.form-elements .input-field label i {
+    font-size: 30px !important;
+    line-height: 105px !important;
+    color: gray !important;
+}
+
+.form-elements .input-field span.caret {
+    right: 98% !important;
+}
+
+.form-elements .dropselect {
+    margin-top: 20px;
+}
+
+.form-elements input::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: gray;
+}
+
+.form-elements input::-moz-placeholder {
+    /* Firefox 19+ */
+    color: gray;
+}
+
+.form-elements input:-ms-input-placeholder {
+    /* IE 10+ */
+    color: gray;
+}
+
+.form-elements input:-moz-placeholder {
+    /* Firefox 18- */
+    color: gray;
+}
+
+.form-elements .dropdown-content {
+    padding-right: 0px;
+}
+
+.form-elements .submit {
+    display: block;
+    margin: 0 auto;
+    background: #003096;
+    padding-right: 40px;
+    padding-left: 40px;
+}
